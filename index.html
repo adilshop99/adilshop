@@ -9,32 +9,31 @@
 body{
 margin:0;
 font-family:Arial, sans-serif;
-background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
-color:white;
-text-align:center;
+background:#f2f2f2;
 }
 
 header{
-padding:25px;
-font-size:30px;
+background:linear-gradient(90deg,#000,#333);
+color:white;
+padding:20px;
+text-align:center;
+font-size:28px;
 font-weight:bold;
 letter-spacing:2px;
 }
 
-.product{
-background:white;
-color:black;
-margin:30px auto;
-padding:25px;
-width:90%;
-max-width:420px;
-border-radius:20px;
-box-shadow:0 10px 30px rgba(0,0,0,0.3);
-transition:0.3s;
+.container{
+padding:20px;
 }
 
-.product:hover{
-transform:scale(1.03);
+.product{
+background:white;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+padding:20px;
+max-width:500px;
+margin:30px auto;
+text-align:center;
 }
 
 .product img{
@@ -48,61 +47,78 @@ margin-top:15px;
 
 .price{
 font-size:24px;
-color:red;
+color:#e60000;
 font-weight:bold;
 margin:15px 0;
 }
 
-.btn{
-display:inline-block;
-margin:10px;
-padding:15px 25px;
-border-radius:30px;
-text-decoration:none;
-color:white;
-font-size:16px;
-transition:0.3s;
+.features{
+text-align:left;
+margin:15px 0;
 }
 
-.whatsapp{
+.features li{
+margin-bottom:8px;
+}
+
+button{
 background:#25D366;
+color:white;
+border:none;
+padding:15px 25px;
+font-size:18px;
+border-radius:10px;
+cursor:pointer;
+transition:0.3s;
+width:100%;
 }
 
-.instagram{
-background:linear-gradient(45deg,#feda75,#d62976,#962fbf,#4f5bd5);
+button:hover{
+background:#1ebe5d;
 }
 
-.btn:hover{
-opacity:0.8;
+footer{
+text-align:center;
+padding:15px;
+background:#000;
+color:white;
+margin-top:40px;
 }
 </style>
-
 </head>
+
 <body>
 
 <header>🔥 ADILSHOP 🔥</header>
 
+<div class="container">
+
 <div class="product">
-<img src="tool.jpg" alt="Инструмент набор">
 
-<h2>Профессионал инструмент набор (46 бөлүк)</h2>
+<img src="Screenshot_2026-03-02-01-28-21-339_com.einnovation.temu-edit.jpg" alt="Инструмент набор">
 
-<p>
-Унаа оңдоо жана үй жумуштарына ылайыктуу сапаттуу набор.  
-Бекем металл. Узак мөөнөт колдонулат.
-</p>
+<h2>Универсал инструмент набор</h2>
 
-<div class="price">🔥 Акция баа: 1800 сом</div>
+<div class="price">Баасы: 1800 сом</div>
 
-<a class="btn whatsapp" href="https://wa.me/996502418518">
-📲 WhatsApp аркылуу заказ
-</a>
+<ul class="features">
+<li>✔️ 46 бөлүктөн турат</li>
+<li>✔️ Бекем металл</li>
+<li>✔️ Үйгө жана автоунаага ылайыктуу</li>
+<li>✔️ Компакт чемодан менен</li>
+</ul>
 
-<a class="btn instagram" href="https://instagram.com/">
-📸 Instagram баракча
+<a href="https://wa.me/996502418518">
+<button>WhatsApp аркылуу заказ кылуу</button>
 </a>
 
 </div>
+
+</div>
+
+<footer>
+© 2026 AdilShop | Сапаттуу товарлар
+</footer>
 
 </body>
 </html>
