@@ -3,74 +3,105 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Adil Shop</title>
+<title>AdilShop</title>
 
 <style>
 body{
-    margin:0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
-    color:white;
-    text-align:center;
+margin:0;
+font-family:Arial, sans-serif;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+text-align:center;
 }
 
-.container{
-    padding:40px 20px;
+header{
+padding:25px;
+font-size:30px;
+font-weight:bold;
+letter-spacing:2px;
 }
 
-h1{
-    font-size:32px;
-    margin-bottom:10px;
+.product{
+background:white;
+color:black;
+margin:30px auto;
+padding:25px;
+width:90%;
+max-width:420px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+transition:0.3s;
 }
 
-p{
-    opacity:0.9;
-    margin-bottom:30px;
+.product:hover{
+transform:scale(1.03);
+}
+
+.product img{
+width:100%;
+border-radius:15px;
+}
+
+h2{
+margin-top:15px;
+}
+
+.price{
+font-size:24px;
+color:red;
+font-weight:bold;
+margin:15px 0;
 }
 
 .btn{
-    display:block;
-    width:80%;
-    max-width:300px;
-    margin:15px auto;
-    padding:15px;
-    border-radius:30px;
-    text-decoration:none;
-    font-weight:bold;
-    font-size:18px;
-    transition:0.3s;
-}
-
-.instagram{
-    background: linear-gradient(45deg,#fd1d1d,#833ab4,#fcb045);
-    color:white;
+display:inline-block;
+margin:10px;
+padding:15px 25px;
+border-radius:30px;
+text-decoration:none;
+color:white;
+font-size:16px;
+transition:0.3s;
 }
 
 .whatsapp{
-    background:#25D366;
-    color:white;
+background:#25D366;
+}
+
+.instagram{
+background:linear-gradient(45deg,#feda75,#d62976,#962fbf,#4f5bd5);
 }
 
 .btn:hover{
-    transform:scale(1.05);
-    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+opacity:0.8;
 }
 </style>
-</head>
 
+</head>
 <body>
 
-<div class="container">
-    <h1>🔥 ADIL SHOP</h1>
-    <p>Сапаттуу товар • Арзан баа • Тез доставка</p>
+<header>🔥 ADILSHOP 🔥</header>
 
-    <a href="https://instagram.com/avtotrend_bishkek" target="_blank" class="btn instagram">
-        📸 Instagram баракча
-    </a>
+<div class="product">
+<img src="tool.jpg" alt="Инструмент набор">
 
-    <a href="https://wa.me/996502418518?text=Салам%20Adil%20Shop!%20Товар%20боюнча%20маалымат%20беринизчи." target="_blank" class="btn whatsapp">
-        💬 Азыр заказ берүү
-    </a>
+<h2>Профессионал инструмент набор (46 бөлүк)</h2>
+
+<p>
+Унаа оңдоо жана үй жумуштарына ылайыктуу сапаттуу набор.  
+Бекем металл. Узак мөөнөт колдонулат.
+</p>
+
+<div class="price">🔥 Акция баа: 1800 сом</div>
+
+<a class="btn whatsapp" href="https://wa.me/996502418518">
+📲 WhatsApp аркылуу заказ
+</a>
+
+<a class="btn instagram" href="https://instagram.com/">
+📸 Instagram баракча
+</a>
+
 </div>
 
 </body>
